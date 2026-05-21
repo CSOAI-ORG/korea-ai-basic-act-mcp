@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "korea-ai-basic-act-mcp"
+version = "1.0.0"
+description = "Korea AI Basic Act compliance MCP — in force since 22 Jan 2026. High-impact AI + mandatory GenAI labelling + MSIT obligations + cross-walks to EU AI Act + Japan AI Promotion. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "korea-ai-basic-act", "msit", "ai-framework-act", "compliance", "governance", "asia-pacific", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries",
+  "Intended Audience :: Legal Industry",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://meok.ai/governance"
+Repository = "https://github.com/CSOAI-ORG/korea-ai-basic-act-mcp"
+
+[project.scripts]
+korea-ai-basic-act-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]
