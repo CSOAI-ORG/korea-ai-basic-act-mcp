@@ -1,75 +1,78 @@
-# Korea AI Basic Act Compliance MCP
+# Korea Ai Basic Act MCP
 
-> ## 🧱 Part of the MEOK Governance Substrate (£499/mo)
-> See [meok.ai/governance](https://meok.ai/governance).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/korea_ai_basic_act_mcp/)
 
-# Korea AI Basic Act — in force since 22 January 2026
+>  Korea AI Basic Act — in force since 22 January 2026
 
-<!-- mcp-name: io.github.CSOAI-ORG/korea-ai-basic-act-mcp -->
+ Korea AI Basic Act — in force since 22 January 2026
 
-[![PyPI](https://img.shields.io/pypi/v/korea-ai-basic-act-mcp)](https://pypi.org/project/korea-ai-basic-act-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## What this covers
+## 🚀 Quick Start
 
-The Republic of Korea's **Framework Act on the Development of AI and Establishment of a Foundation for Trustworthiness** — promulgated 21 January 2025, **in force since 22 January 2026** with a one-year MSIT grace on administrative fines (until 22 January 2027).
+```bash
+# Install via pip
+pip install korea_ai_basic_act_mcp
 
-If you develop OR deploy AI products serving Korean users, you're in scope. Foreign businesses are explicitly covered.
+# Or install via Smithery
+npx -y @smithery/cli@latest install korea-ai-basic-act-mcp --client claude
+```
 
-## Tools
+## ✨ Features
 
-| Tool | Purpose |
-|---|---|
-| `classify_system_impact(description)` | Is this a "high-impact" AI system under the Act? |
-| `check_genai_labelling_required(system_type)` | Is mandatory GenAI labelling required? |
-| `assess_business_type(activities)` | AI developer vs utilisation operator (or both) |
-| `get_obligations_checklist(business_type, impact_level)` | Full checklist |
-| `sign_compliance_attestation(assessment)` | HMAC-signed MSIT-ready evidence |
-| `cross_walk_eu_ai_act(assessment)` | Korea ↔ EU AI Act mapping |
-| `cross_walk_jp_ai_promotion(assessment)` | Korea ↔ Japan parallel |
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-## Why this matters NOW
+## 📖 Documentation
 
-The Korea AI Basic Act came into force less than 4 months ago. Most Korean firms — and almost all foreign firms serving Korean users — are still scoping their obligations. The MSIT grace on administrative fines runs out 22 January 2027, but disclosure + GenAI labelling obligations apply NOW.
+- [Full Documentation](https://docs.meok.ai/korea-ai-basic-act-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-This MCP saves you the consultancy hours of mapping which obligations apply to your business type + impact level + GenAI use case.
+## 🛡️ Compliance
 
-## Sister MCPs
+This MCP server is built with **EU AI Act compliance** built-in:
 
-Part of the MEOK **Governance** pack:
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-- `eu-ai-act-compliance-mcp` — EU AI Act (cross-walks below)
-- `iso-42005-impact-mcp` — for impact-assessment evidence
-- `watermarking-authenticity-mcp` — for GenAI labelling (C2PA + invisible watermark)
-- `ai-incident-reporting-mcp` — 5-clock incident chain
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-Full catalogue: [meok.ai/anthropic-registry](https://meok.ai/anthropic-registry)
+## 🏢 Enterprise
 
-## Protocol coverage + Universal PAYG
+Need custom development, SLA guarantees, or white-label deployment?
 
-| Option | Price |
-|---|---|
-| Self-host MIT | £0 |
-| Universal PAYG | £29/mo + £0.0002/call |
-| Governance Substrate | £499/mo |
-| Universe | £1,499/mo |
-| Defence | £4,990/mo |
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-Buy: https://meok.ai/governance
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-## Wire it up — full stack
+## 🤝 Part of the MEOK Ecosystem
 
-Pair this with the MEOK chain that turns one agent action into ONE signed compliance event:
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
 
-1. **bft-progress-council-mcp** — anti-loop guardrail
-2. **agent-token-budget-mcp** — hard spend cap
-3. **agent-prompt-injection-firewall-mcp** — OWASP LLM01 scan
-4. **agent-audit-logger-mcp** — hash-chained evidence
-5. **a2a-governance-bridge-mcp** — fold N attestations → 1 signed event
-6. **agent-incident-relay-mcp** — broadcast incidents to 5 regimes simultaneously
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
 
-See [meok.ai/mcp-stack](https://meok.ai/mcp-stack) for the full architecture and [meok.ai/mcp-stack/demo](https://meok.ai/mcp-stack/demo) for the live in-browser demo.
+## 📜 License
 
-## Licence
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 
-MIT. By [MEOK AI Labs](https://meok.ai) (CSOAI LTD, UK Companies House 16939677). Not legal advice — pair with qualified Korean counsel for production deployments.
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
