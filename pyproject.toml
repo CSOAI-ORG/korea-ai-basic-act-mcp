@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "korea-ai-basic-act-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "Korea AI Basic Act compliance MCP — in force since 22 Jan 2026. High-impact AI + mandatory GenAI labelling + MSIT obligations + cross-walks to EU AI Act + Japan AI Promotion. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
