@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "korea-ai-basic-act-mcp",
+    "description": "Korea AI Basic Act compliance MCP \u2014 in force 22 Jan 2026. High-impact AI + GenAI labelling + MSIT",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "korea-ai-basic-act-mcp"
+      }
+    ],
+    "capabilities": [
+      "classify_system_impact",
+      "check_genai_labelling_required",
+      "assess_business_type",
+      "get_obligations_checklist",
+      "sign_compliance_attestation",
+      "cross_walk_eu_ai_act",
+      "cross_walk_jp_ai_promotion"
+    ]
+  }
+}

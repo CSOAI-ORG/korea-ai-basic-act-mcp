@@ -1,0 +1,86 @@
+{
+  "name": "korea-ai-basic-act-mcp",
+  "description": "Korea AI Basic Act compliance MCP \u2014 in force 22 Jan 2026. High-impact AI + GenAI labelling + MSIT",
+  "url": "https://proofof.ai/scorecard/korea-ai-basic-act-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "classify_system_impact",
+      "name": "Classify System Impact",
+      "description": "classify_system_impact via korea-ai-basic-act-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_genai_labelling_required",
+      "name": "Check Genai Labelling Required",
+      "description": "check_genai_labelling_required via korea-ai-basic-act-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "assess_business_type",
+      "name": "Assess Business Type",
+      "description": "assess_business_type via korea-ai-basic-act-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "get_obligations_checklist",
+      "name": "Get Obligations Checklist",
+      "description": "get_obligations_checklist via korea-ai-basic-act-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_compliance_attestation",
+      "name": "Sign Compliance Attestation",
+      "description": "sign_compliance_attestation via korea-ai-basic-act-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "cross_walk_eu_ai_act",
+      "name": "Cross Walk Eu Ai Act",
+      "description": "cross_walk_eu_ai_act via korea-ai-basic-act-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "cross_walk_jp_ai_promotion",
+      "name": "Cross Walk Jp Ai Promotion",
+      "description": "cross_walk_jp_ai_promotion via korea-ai-basic-act-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
