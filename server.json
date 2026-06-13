@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/korea-ai-basic-act-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Korea AI Basic Act compliance MCP — in force 22 Jan 2026. High-impact AI + GenAI labelling + MSIT",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/korea-ai-basic-act-mcp",
@@ -11,7 +11,7 @@
     {
       "registryType": "pypi",
       "identifier": "korea-ai-basic-act-mcp",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "runtimeHint": "python",
       "transport": {
         "type": "stdio"
