@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "korea-ai-basic-act-mcp"
-version = "1.0.2"
+version = "1.0.3"
 description = "Korea AI Basic Act compliance MCP — in force since 22 Jan 2026. High-impact AI + mandatory GenAI labelling + MSIT obligations + cross-walks to EU AI Act + Japan AI Promotion. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
@@ -29,3 +29,22 @@ korea-ai-basic-act-mcp = "server:main"
 
 [tool.setuptools]
 py-modules = ["server"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N"]
+ignore = ["E501"]
+
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_Configs = true
+disallow_untyped_defs = true
+
